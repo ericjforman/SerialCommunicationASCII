@@ -5,11 +5,10 @@
 // remember to import the P5 serial library into your "index.html" file
 
 
-let serial; // variable for the serial object
+let serial;                                 // variable for the serial object
 let portName = '/dev/tty.usbserial-14640'; // fill in your serial port name here
 
 let numSensors = 3;             // how many data values you are sending from Arduino
-//let sensors = [-1, -1, -1];     // array to hold data from arduino, -1 until connected 
 let xPos = 0;                   // Starting position of the ball
 let yPos = 0;
 let ballColor = 0;              // color of the ball
@@ -38,6 +37,11 @@ function setup() {
 
 function draw() {
   background(0);                      // erase screen with black
+  
+  // fill screen with translucent black:
+  noStroke();
+  fill(0, 50);      // leaves a trace, WHY?
+  rect(0, 0, width, height);
   
   // draw bigger green circle when button pressed:
   if (ballColor == 0) {
