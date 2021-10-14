@@ -16,6 +16,7 @@ Method 2 - sending multiple values, waiting for "call and response" (aka "handsh
 
 	* Use Arduino example from Files / Examples / 04. Communication / SerialCallResponseASCII
 	* Use Processing or P5 code "SerialCallResponseASCII"
+	* P5 code is also online: https://editor.p5js.org/ericjforman/sketches/Azc4IKkFG
 
 
 P5.js versions:
