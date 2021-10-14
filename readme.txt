@@ -1,6 +1,6 @@
 These are re-written examples for serial communication of multiple sensors between Arduino and Processing or P5. 
 
-Both use full range values (from 0-1023 or more), separated by commas, with each packet ended by a line return. This is not as fast as using Serial.write (limited to 0-255), but is much easier to debug. 
+They send full range values (from 0-1023 or more) using Seria.print, separated by commas, with each packet ended by a line return. This is not as fast as using Serial.write (limited to 0-255), but is much easier to debug. 
 
 
 Method 1 - sending multiple values
