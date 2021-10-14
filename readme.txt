@@ -4,7 +4,7 @@ They send full range values (from 0-1023 or more) using Seria.print, separated b
 
 
 Method 1 - sending multiple values
-- This is the recommended method, as it the easiest to debug, as you can see data either in the Arduino Serial Monitor, or Processing
+- This is the recommended method, as it the easiest to debug - you can see data either in the Arduino Serial Monitor, or Processing
 
 	* Use Arduino example from Files / Examples / 04. Communication / VirtualColorMixer
 	* Use Processing or P5 code in this repository - "VirtualColorMixer" or "VirtualColorMixer_p5"
