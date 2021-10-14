@@ -39,11 +39,6 @@ function setup() {
 function draw() {
   background(0);                      // erase screen with black
   
-  // fill screen with translucent black:
-  noStroke();
-  fill(0, 50);      // leaves a trace, WHY?
-  rect(0, 0, width, height);
-  
   // draw bigger green circle when button pressed:
   if (ballColor == 0) {
     fill(0,0,255);                    // blue
