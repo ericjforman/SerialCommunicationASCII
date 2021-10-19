@@ -43,7 +43,7 @@ P5.js versions:
 
 3. You must be running p5.SerialControl (download from https://github.com/p5-serial/p5.serialcontrol/releases)
 
-4. You do NOT need to open the port, just note its name (or copy and paste from sample code on the right)
-
-5. Remember to add the p5 serial library into your "index.html" file:
+4. Remember to add the p5 serial library into your "index.html" file:
 	<script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5.serialserver@0.0.28/lib/p5.serialport.js"></script>
+
+5. You do NOT need to open the port, just note its name (or copy and paste from sample code on the right)
