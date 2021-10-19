@@ -22,7 +22,8 @@ Method 2 - sending multiple values, waiting for "call and response" (aka "handsh
 	* P5 code is also online: https://editor.p5js.org/ericjforman/sketches/Azc4IKkFG
 
 
-Bonus - same concept, drawing a line 
+Bonus - same concept, sending multiple values (to make a drawing) 
+- This example draws line segments in response to two analog values, and clears the screen in response to a button
 - This code also uses call and response, but it will work with VirtualColorMixer Arduino code as well
 - The response byte ("A") will simply be ignored 
 - Note the fun "tracer" effect of erasing the screen with a translucent fill
