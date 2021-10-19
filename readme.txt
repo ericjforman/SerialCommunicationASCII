@@ -4,6 +4,7 @@ They send full range values (from 0-1023 or more) using Serial.print, separated 
 
 
 Method 1 - sending multiple values
+- This example changes background color in response to three analog sensors
 - This is the recommended method, as it the easiest to debug - you can see data either in the Arduino Serial Monitor, or Processing
 
 	* Use Arduino example from Files / Examples / 04. Communication / VirtualColorMixer
@@ -12,6 +13,7 @@ Method 1 - sending multiple values
 	
 
 Method 2 - sending multiple values, waiting for "call and response" (aka "handshake")
+- This exaple moves a ball on screen in response to two analog values, and changing its color in response to a button
 - This cannot be debugged in the Serial Monitor, you must use Processing
 - But it is the most robust and error-free system
 
