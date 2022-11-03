@@ -37,7 +37,7 @@ BONUS: same concept, sending multiple values (to make a drawing)
 ---------------------------------------------------------------------------
 
 
-P5.js versions:
+P5.js notes:
 
 1. P5 serial communication only works in Chrome! (Not Safari, Explorer, Firefox)
 
