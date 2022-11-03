@@ -2,33 +2,34 @@ These are re-written examples for serial communication of multiple sensors betwe
 
 They send full range values (from 0-1023 or more) using Serial.print, separated by commas, with each packet ended by a line return. This is not as fast as using Serial.write (limited to 0-255), but is much easier to debug. 
 
+- You can debug data either in the Arduino Serial Monitor (best to do first to confirm sensors work), or the Processing/P5 console (best to do once sensors are working). 
 
-Method 1 - sending multiple values
+
+Method 1: sending multiple values
 - This example changes background color in response to three analog sensors
-- It is easy to debug - you can see data either in the Arduino Serial Monitor, or Processing
+- Simplest method (no handshaking)
 
 	* Use Arduino example from Files / Examples / 04. Communication / VirtualColorMixer
 	* Use Processing or P5 code in this repository - "VirtualColorMixer" or "VirtualColorMixer_p5"
 	* P5 code is also online: https://editor.p5js.org/ericjforman/sketches/pR_2AzA7x
 	
 
-Method 2 - sending multiple values, waiting for "call and response" (aka "handshake")
-- This example moves a ball on screen in response to two analog values, and changing its size and color in response to a button
-- It is easy to debug - you can see data either in the Arduino Serial Monitor, or Processing
-- It is more complex, but it is the most robust and error-free system
+Method 2: sending multiple values, waiting for "call and response" (aka "handshake")
+- This example moves a ball on screen in response to two analog values, and changing its size and color from button input
+- Handshaking is a bit more complex, but it is the most robust and error-free system
 
 	* Use Arduino example from Files / Examples / 04. Communication / SerialCallResponseASCII
 	* Use Processing or P5 code "SerialCallResponseASCII"
 	* P5 code is also online: https://editor.p5js.org/ericjforman/sketches/Azc4IKkFG
 
 
-Bonus - same concept, sending multiple values (to make a drawing) 
+BONUS: same concept, sending multiple values (to make a drawing) 
 - This example draws line segments in response to two analog values, and clears the screen in response to a button
 - This code also uses call and response, but it will work with VirtualColorMixer Arduino code as well
-- The response byte ("A") will simply be ignored 
+  - The response byte ("A") will simply be ignored 
 - Note the fun "tracer" effect of erasing the screen with a translucent fill
 
-	* Use either Arduino example above
+	* Use Arduino example from Files / Examples / 04. Communication / SerialCallResponseASCII
 	* Use Processing or P5 code "LineDrawing"
 	* P5 code is also online: https://editor.p5js.org/ericjforman/sketches/zY0MujYWa
 
