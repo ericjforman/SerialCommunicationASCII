@@ -1,8 +1,8 @@
 These are re-written examples for serial communication of multiple sensors between Arduino and Processing or P5. 
 
-They send full range values (from 0-1023 or more) using Serial.print, separated by commas, with each packet ended by a line return. This is not as fast as using Serial.write (limited to 0-255), but is much easier to debug. 
+They send full range values (from 0-1023 or more) using Serial.print, separated by commas, with each packet ended by a line return. This is not as lightning fast as using Serial.write, but is much easier to debug in Arduino. (Serial.write is not ASCII, and it also limited to 0-255.)
 
-- You can debug data either in the Arduino Serial Monitor (best to do first to confirm sensors work), or the Processing/P5 console (best to do once sensors are working). 
+- You can debug data either in the Arduino Serial Monitor (best to do first to confirm sensors work), or the Processing/P5 console. 
 
 
 Method 1: sending multiple values
