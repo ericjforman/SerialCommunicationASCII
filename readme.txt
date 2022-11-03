@@ -48,4 +48,4 @@ P5.js notes:
 4. Remember to add the p5 serial library into your "index.html" file:
 	<script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5.serialserver@latest/lib/p5.serialport.js"></script>
 
-5. You do NOT need to open the port in the SerialControl helper app, just note its name (or copy and paste from its sample code on the right)
+5. You do NOT need to open the port in the SerialControl helper app, just note its name (or copy and paste from its "starter code")
