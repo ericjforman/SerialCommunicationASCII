@@ -43,9 +43,9 @@ P5.js notes:
 
 2. Copy the code into a new project, or rename the sketch to "sketch.js"
 
-3. You must be running p5.SerialControl (download from https://github.com/p5-serial/p5.serialcontrol/releases)
+3. You must be running p5.SerialControl (download from https://github.com/p5-serial/p5.serialcontrol/releases) or SerialServer
 
 4. Remember to add the p5 serial library into your "index.html" file:
 	<script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5.serialserver@latest/lib/p5.serialport.js"></script>
 
-5. You do NOT need to open the port in SerialControl app, just note its name (or copy and paste from sample code on the right)
+5. You do NOT need to open the port in the SerialControl helper app, just note its name (or copy and paste from its sample code on the right)
