@@ -1,3 +1,4 @@
+# Serial Communication ASCII
 These are re-written examples for serial communication of multiple sensors between Arduino and Processing or P5. 
 
 They send full range values (from 0-1023 or more) using Serial.print, separated by commas, with each packet ended by a line return. This is not as lightning fast as using Serial.write, but is much easier to debug in Arduino. (Serial.write is not ASCII, and it also limited to 0-255.)
